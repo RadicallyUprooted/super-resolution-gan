@@ -1,0 +1,12 @@
+__pycache__/
+
+# Environments
+.venv
+
+# Model checkpoints
+/*.pth
+
+# Results
+results/
+danbooru/
+inference/
