@@ -1,6 +1,6 @@
 # Super-Resolution GAN (SRGAN) in PyTorch
 
-This project provides a PyTorch implementation of the Super-Resolution Generative Adversarial Network (SRGAN) by [(Ledig et al., 2016)](https://arxiv.org/abs/1609.04802). Originally, it was my undegraduate studies' coursework.
+This project provides a PyTorch implementation of the Super-Resolution Generative Adversarial Network (SRGAN) by [(Ledig et al., 2016)](https://arxiv.org/abs/1609.04802). Originally, it was my undergraduate studies' coursework.
 
 <div style="display: flex; justify-content: center;">
   <img src="test_imgs/sodachi_bicubic.jpg" alt="Bicubic interpolation" style="width: 48%; margin-right: 2%;">
