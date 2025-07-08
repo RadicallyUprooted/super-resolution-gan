@@ -68,6 +68,12 @@ python train_srgan.py \
 
 Checkpoints for both the generator and discriminator will be saved during training.
 
+### Additional notes on training
+
+In my case, the generator was trained for 35 epochs using L1 loss, and the resulting checkpoint (`./checkpoints/srresnet_35_epochs.pth`) was used to initialize SRGAN. SRGAN was then trained for 15 epochs, with a slight adjustment to the learning rate after epoch 10.
+
+The training data consisted of 60,000 images from the [Danbooru2021](https://gwern.net/danbooru2021) dataset.
+
 ## Inference
 
 To use a trained generator (either from SRResNet pre-training or SRGAN training), use the `inference.py` script.
